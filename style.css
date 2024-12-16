@@ -47,6 +47,22 @@ body, html
     border-radius: 5px;
 }
 
+#fact-getter:hover
+{
+    border-radius: 5px;
+    background-color: #e8dddd;
+    cursor: pointer;
+}
+
+#fact-getter:active
+{
+    border-radius: 5px;
+    background-color: #e8dddd;
+    cursor: pointer;
+    box-shadow: 0 2px #414040;
+    transform: translateY(4px);
+}
+
 @media screen and (min-width:500px)
 {
     .bg-text
